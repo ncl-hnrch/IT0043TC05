@@ -39,3 +39,8 @@ p {
 .area {
     color: red;
 }
+
+.area2 {
+    color: red;
+    font-weight: 600px;
+}
