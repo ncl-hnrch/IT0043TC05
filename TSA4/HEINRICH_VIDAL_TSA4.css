@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+
+
+.container1 {
+    max-width: 90vw;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+}
+
+.buttons {
+    padding-top: 5%;
+}
+
+.add {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #98d6ff;
+    width: 90px;
+    color:rgb(0, 0, 0);
+    border: 0;
+    font-family: Play;
+}
+.add:hover {
+  background-color: gray; 
+  color: rgb(255, 255, 255); 
+}
+
+.release {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ee8375;
+    width: 90px;
+    color:rgb(0, 0, 0);
+    border: 0;
+    font-family: Play;
+}
+.release:hover {
+  background-color: gray; 
+  color: rgb(255, 255, 255); 
+}
+
+.card {
+    display: inline-block;
+    border-radius: 25px;
+    width: 325px;
+    height: 500px;
+    box-shadow: 10px 10px 5px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.upper {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    /* width: 325px; */
+    /* height: 250px; */
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    margin-bottom: 0%;
+} 
+
+.lower1 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 31px;
+    background-color: #435010;
+}
+
+.first {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 53%;
+}
+
+.Eldegoss {
+    font-family: Play;
+    color: rgb(138, 79, 1);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.grass {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #73AD21;
+    width: 90px;
+    color:rgb(3, 70, 25);
+    padding: 4px;
+}
+
+.eldy {
+    font-family: Play;
+    color:white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower2 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #64190f;
+}
+
+.second {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 49%;
+}
+
+.talonflame {
+    font-family: Play;
+    color: rgb(255, 157, 157);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.fire {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #ff604b;
+    width: 90px;
+    color:#64190f;
+    padding: 4px;
+}
+
+.flying {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #89daff;
+    width: 90px;
+    color:#1d4b61;
+    padding: 4px;
+}
+
+.talon {
+    font-family: Play;
+    color:white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower3 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #ffacea;
+}
+
+.third {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 56%;
+}
+
+.wigglypuff {
+    font-family: Play;
+    color: rgb(187, 89, 187);
+    text-shadow: 0px 0px 10px rgb(197, 162, 192);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.normal {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #adadad;
+    width: 90px;
+    color:#ffffff;
+    padding: 4px;
+}
+
+.fairy {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #ef7ad5;
+    width: 90px;
+    color:#742663;
+    padding: 4px;
+}
+
+.jiggly {
+    font-family: Play;
+    color:rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower4 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #343434;
+}
+
+.fourth {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 40%;
+}
+
+.onix {
+    font-family: Play;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.rock {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #ffe5c8;
+    width: 90px;
+    color:#a77f4f;
+    padding: 4px;
+}
+
+.ground {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #783400;
+    width: 90px;
+    color:#e05d00;
+    padding: 4px;
+}
+
+.onixDesc {
+    font-family: Play;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower5 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #52004c;
+}
+
+.fifth {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 39%;
+}
+
+.espeon {
+    font-family: Play;
+    color: rgb(226, 33, 181);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.psychic {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #cf00a5;
+    width: 90px;
+    color:#3e0039;
+    padding: 4px;
+}
+
+.esp {
+    font-family: Play;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+}
+
+.lower6 {
+    width: 100% auto;
+    height: 100% auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: #1e2c77;
+}
+
+.sixth {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 51%;
+}
+
+.lanturn {
+    font-family: Play;
+    color: rgb(255, 239, 68);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.water {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #1f4fe0;
+    width: 90px;
+    color: #b0c4ff;
+    padding: 4px;
+}
+
+.electric {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #b5a300;
+    width: 90px;
+    color:#3d4100;
+    padding: 4px;
+}
+
+.lan {
+    font-family: Play;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+}
+
+
