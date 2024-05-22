@@ -9,6 +9,7 @@
 .buttons {
     padding-top: 5%;
 }
+
 .add {
     display: inline-block;
     border-radius: 5px;
@@ -152,7 +153,7 @@
 .third {
     margin-top: 15%;
     margin-bottom: 10%;
-    width: 50%;
+    width: 59%;
 }
 
 .wigglypuff {
@@ -189,6 +190,4 @@
     margin: 10px;
     padding: 5px;
 }
-
-
 
