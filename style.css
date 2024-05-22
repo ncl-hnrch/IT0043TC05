@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+
+.container1 {
+    max-width: 90vw;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.buttons {
+    padding-top: 5%;
+}
+.add {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #98d6ff;
+    width: 90px;
+    color:rgb(0, 0, 0);
+    border: 0;
+    font-family: Play;
+}
+.add:hover {
+  background-color: gray; 
+  color: rgb(255, 255, 255); 
+}
+
+.release {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ee8375;
+    width: 90px;
+    color:rgb(0, 0, 0);
+    border: 0;
+    font-family: Play;
+}
+.release:hover {
+  background-color: gray; 
+  color: rgb(255, 255, 255); 
+}
+
+.card1 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 325px;
+    height: 500px;
+    box-shadow: 10px 10px 5px;
+    background-color: rgb(72, 126, 40);
+    margin-right: 50px;
+}
+
+.upper {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    /* width: 325px; */
+    /* height: 250px; */
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    
+} 
+
+.first {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 55%;
+}
+
+.Eldegoss {
+    font-family: Play;
+    color: rgb(138, 79, 1);
+    text-shadow: 0px 0px 10px white;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.grass {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #73AD21;
+    width: 90px;
+    color:rgb(3, 70, 25)
+}
+
+.eldy {
+    font-family: Play;
+    color:white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card2 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 325px;
+    height: 500px;
+    box-shadow: 10px 10px 5px;
+    background-color: rgb(150, 23, 1);
+    margin-right: 50px;
+}
+
+.second {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 51%;
+}
+
+.talonflame {
+    font-family: Play;
+    color: rgb(255, 157, 157);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.fire {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #ff604b;
+    width: 90px;
+    color:#64190f;
+}
+
+.flying {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #89daff;
+    width: 90px;
+    color:#1d4b61;
+}
+
+.talon {
+    font-family: Play;
+    color:white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card3 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 325px;
+    height: 500px;
+    box-shadow: 10px 10px 5px;
+    background-color: rgb(255, 205, 251);
+}
+
+.third {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 50%;
+}
+
+.wigglypuff {
+    font-family: Play;
+    color: rgb(187, 89, 187);
+    text-shadow: 0px 0px 10px rgb(197, 162, 192);
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.normal {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #adadad;
+    width: 90px;
+    color:#ffffff;
+}
+
+.fairy {
+    font-family: Play;
+    margin: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #ffa2eb;
+    width: 90px;
+    color:#a7378e;
+}
+
+.jiggly {
+    font-family: Play;
+    color:rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
