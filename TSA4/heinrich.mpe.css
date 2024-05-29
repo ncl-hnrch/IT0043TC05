@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s all ease;
+}
+
+.background{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+    gap: 15px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.ball {
+    display: none;
+}
+
+.name {
+    display: none;
+}
+
+.box {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    padding: 1.5%;
+    image-orientation: inherit;
+    content: inherit;
+    box-shadow: 5px 5px 3px black;
+}
+
+.one {
+    background-color: rgb(255, 216, 252);
+    border: 5px rgb(163, 65, 155) solid;
+}
+
+.two {
+    background-color: rgb(254, 255, 173);
+    border: 5px rgb(138, 108, 12) solid;
+}
+
+.three {
+    background-color: rgb(187, 102, 63);
+    border: 5px rgb(97, 44, 22) solid;
+}
+
+.four {
+    background-color: rgb(86, 182, 99);
+    border: 5px rgb(39, 109, 49) solid;
+}
+
+.five {
+    background-color: rgb(85, 253, 107);
+    border: 5px rgb(39, 109, 49) solid;
+}
+
+.six {
+    background-color: rgb(255, 129, 45);
+    border: 5px rgb(136, 66, 0) solid;
+}
+
+.seven {
+    background-color: rgb(111, 250, 255);
+    border: 5px rgb(0, 90, 117) solid;
+}
+
+.eight {
+    background-color: rgb(255, 220, 155);
+    border: 5px rgb(180, 144, 76) solid;
+}
+
+.nine {
+    background-color: rgb(247, 220, 100);
+    border: 5px rgb(124, 96, 45) solid;
+}
+
+.ten {
+    background-color: rgb(255, 156, 28);
+    border: 5px rgb(173, 102, 9) solid;
+}
+
+.elev {
+    background-color: rgb(168, 181, 255);
+    border: 5px rgb(101, 124, 255) solid;
+}
+
+.twel {
+    background-color: rgb(255, 185, 95);
+    border: 5px rgb(214, 136, 34) solid;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        gap: 5px;
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-items: center;
+    }   
+    
+    img {
+        max-width: 20%;
+        max-height: 20%;
+        overflow: hidden;
+    }
+    
+    .box {
+        display: flex;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        align-items: center;
+        image-orientation: inherit;
+        content: inherit;
+        box-shadow: 5px 5px 3px black;
+        justify-content: space-between;
+    }
+
+    .box:hover {    
+        background-image: url(hovimg.jpg);
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    .ball {
+        display: block;
+        width: 10%;
+    }
+
+    .name{
+        display: block;
+        font-size: 200%;
+        font-family: Play;
+        font-weight: bold;
+        color: white;   
+        text-shadow: 1px 1px 5px black;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 2rem auto;
+        display: flex;
+        gap: 10px;
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-items: center;
+    }   
+    
+    img {
+        max-width: 50%;
+        overflow: hidden;
+    }
+    
+    .box {
+        display: flex;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        align-items: center;
+        image-orientation: inherit;
+        content: inherit;
+        box-shadow: 5px 5px 3px black;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .box:hover {    
+        background-image: url(hovimg.jpg);
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    .ball{
+        display: none;
+    }
+
+    .name{
+        display: block;
+        font-size: 200%;
+        font-family: Play;
+        font-weight: bold;
+        color: white;   
+        text-shadow: 1px 1px 5px black;
+    }
+}
