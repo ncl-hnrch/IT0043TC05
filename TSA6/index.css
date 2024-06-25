@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cabin, Palanquin Dark;
+    transition: 0.5s;
+}
+body {
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 224px;
+    height: 78px;
+    justify-self: flex-start;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: -20px;
+    padding-left: 10px;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffcce6;
+    display: flex;
+    flex-direction: row;
+    text-align: center; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav a {
+    font-size: 25px;
+    color: white;
+    font-family: Palanquin Dark;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px rgb(82, 4, 52);
+}
+
+.nav a:hover {
+    color: #f15ba8;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+#active {
+    color: #f15ba8;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.click {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+/* .welcome {
+    width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    border-radius: 10px;
+} */
+
+#desc {
+    padding: 10px;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-family: Palanquin Dark;
+    color: white;
+    font-size: 25px;
+    background-color: #ff71bb;
+    text-align: center;
+}
+
+.about {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Cabin;
+    font-size: 30px;
+    display: flex;
+}
+
+.character {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Cabin;
+    grid-column: 5/6;
+    grid-row: 1/3;
+    padding-top: 5px;
+    gap: 20px;
+}
+
+#sawako {
+    background-image: url(sawako.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+
+#sawako:hover {
+    background-image: url(sawa_gif.gif);
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+
+#kazehaya {
+    background-image: url(shouta.jpg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+
+#kazehaya:hover {
+    background-image: url(kaze_gif.gif);
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#ayane {
+    background-image: url(ayane.jpg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+
+#ayane:hover {
+    background-image: url(aya_gif.gif);
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#chizu {
+    background-image: url(chizu.jpg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+
+#chizu:hover {
+    background-image: url(chizu_gif.gif);
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#ryu {
+    background-image: url(ryu.jpg);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.251);
+}
+
+#ryu:hover {
+    background-image: url(ryu_gif.gif);
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* .character img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.218);
+}
+
+.character #gif {
+    display: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.218);
+}
+
+.character #gif:hover {
+    display: flex;
+    width: 215px;
+    height: 215px;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.218);
+}
+
+.character img:hover {
+    display: none;
+    width: 215px;
+    height: 215px;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.218);
+} */
+
+@media screen and (max-width: 800px) {
+
+    .logo {
+        width: 124px;
+        height: 58px;
+    }
+    
+    .nav a {
+        font-size: 20px;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    #desc {
+        padding: 10px;
+        grid-column: 1/6;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+    
+    .about {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .character {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        font-family: Cabin;
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo {
+        width: 114px;
+        height: 48px;
+    }
+    
+    .nav a {
+        font-size: 20px;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    #desc {
+        padding: 10px;
+        grid-column: 1/6;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .title {
+        font-size: 18px;
+    }
+    
+    .about {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .character {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        font-family: Cabin;
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+}
+
