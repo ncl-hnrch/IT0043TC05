@@ -325,12 +325,12 @@ body {
 @media screen and (max-width: 600px) {
 
     .logo {
-        width: 114px;
-        height: 48px;
+        width: 104px;
+        height: 38px;
     }
     
     .nav a {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .main {
@@ -352,7 +352,7 @@ body {
     }
     
     .title {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .about {
