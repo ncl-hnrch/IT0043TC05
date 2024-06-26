@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TSA7</title>
+</head>
+
+<body background="wallpaper.gif">
+    <div id="output">
+        <p class="box" id="one"></p>
+        <p class="box" id="two"></p>
+        <p class="box" id="three"></p>
+    </div>
+
+    <div class="buttons">
+        <div class="reset">
+            <button id="reset" onclick="Reset()"> Reset FlexBox</button>
+            <label for="gap"> GAP: </label>
+            <input type="number" name="gap" id="gap" value="0" oninput="Gap(this.value)" min="0">
+        </div>
+
+        <div class="flexDirect">
+            <P> FLEX DIRECTION</P>
+            <button id="flexDirect" onclick="FlexDirect(1)"> Row</button>
+            <button id="flexDirect" onclick="FlexDirect(2)"> Column</button>
+        </div>
+
+        <div class="justCont">
+            <P>JUSTIFY CONTENT</P>
+            <button id="justCont" onclick="JustCont(0)"> Start</button>
+            <button id="justCont" onclick="JustCont(1)"> Center</button>
+            <button id="justCont" onclick="JustCont(2)"> End</button>
+            <button id="justCont" onclick="JustCont(3)"> Space Between</button>
+            <button id="justCont" onclick="JustCont(4)"> Space Around</button>
+            <button id="justCont" onclick="JustCont(4)"> Space Evenly</button>
+        </div>
+
+        <div class="align">
+            <P>ALIGN ITEMS</P>
+            <button id="align" onclick="Align(0)"> Start</button>
+            <button id="align" onclick="Align(1)"> Center</button>
+            <button id="align" onclick="Align(2)"> End</button>
+        </div>
+
+        <div class="flexgrow">
+            <P>FLEX GROW</P>
+            <button id="flexgrow" onclick="Reset(0)"> Reset</button>
+            <button id="flexgrow" onclick="FlexGrow(1)"> Box 1</button>
+            <button id="flexgrow" onclick="FlexGrow(2)"> Box 2</button>
+            <button id="flexgrow" onclick="FlexGrow(3)"> Box 3</button>
+
+        </div>
+    </div>
+
+
+    <script src="op.js"></script>
+
+</body>
+
+</html>
