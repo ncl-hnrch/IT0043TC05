@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widt    h, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+
+<body background="bgimg.jpg">
+    <div class="header">
+            <img src="walk.gif" id="duck">
+
+        <nav>
+            <a href="home.html" id="ACTIVE">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="works.html">WORKS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <div class="btn">
+            <button onclick="menu()" class="menu">▼</button>
+          </div>
+    </div>
+
+    <div id="menu_list" class="drop-menu">
+        <a href="home.html" id="ACTIVE">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="works.html">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+    </div> 
+
+    <div class="lower">
+        <div class="content">
+            <img src="me.jpg" class="me">
+            <div class="desc">
+                <p id="name" class="who">Heinrich, Nicole G.</p>
+                <p id="abt" class="who">I am a student under FEU Institute of Technology, taking the course BSIT-CST</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>

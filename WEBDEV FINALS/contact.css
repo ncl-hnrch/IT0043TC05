@@ -1,0 +1,402 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    animation: 0.5s;
+    transition: ease-in 0.5s;
+}
+
+body {
+    background-color: rgb(240, 223, 145);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.header{
+    position: inherit;
+    background-color: rgb(255, 166, 0);
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+ 
+.logo {
+    margin-left: 5%;
+}
+
+#duck {
+    width: 3.5%;
+    display: flex;
+    margin-left: 5%;
+}
+
+nav {
+    width: 53%; 
+    margin-right: 50px;
+
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bolder;
+    color: rgb(204, 122, 0);
+}
+
+a#ACTIVE {
+    color: rgb(255, 72, 0);
+    
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.contact {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin-left: 20%;
+}
+
+.contact img {
+    width: 100px;
+    height: 100px;
+    mask-image: radial-gradient(circle, black 70%, rgba(0, 0, 0, 0) 0%);
+}
+
+.contact a {
+    color: black;
+}
+
+.icons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.image {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 5px;
+    margin-left: 50%;
+}
+
+.image img {
+    width: 500px;
+}
+
+/* little menu */
+.menu:hover {
+    text-shadow: 0px 0px 2px black;
+    color: rgb(155, 101, 0);
+}
+
+.menu {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: bolder;
+}
+
+.btn {
+    display: none;
+    flex-direction: column;
+}
+
+.drop-menu {
+    display: none;
+    align-self: right;
+    width: 20%;
+    left: 80%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+.drop-menu a {
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+}
+
+.drop-menu a:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .contact {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .contact {
+        font-size: 1.3rem;
+    }
+
+    .image img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .image {
+        padding-top: 8%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .image img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .image {
+        padding-top: 10%;
+    }
+
+    .contact {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contact img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .image img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .image {
+        padding-top: 18%;
+    }
+
+    .contact {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contact img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .image {
+        padding-top: 20%;
+    }
+
+    .contact {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin-left: 10%;
+    }
+
+    .contact img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+
+    .contact {
+        font-size: 1.1rem;
+    }
+
+    .image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .image {
+        margin-left: 40%;
+        padding-top: 20%;
+    }
+
+    .contact {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin-left: 8%;
+    }
+
+    .contact img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .contact {
+        font-size: 0.8rem;
+    }
+
+    .image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .image {
+        margin-left: 40%;
+        padding-top: 20%;
+    }
+
+    .contact {
+        height: 30%;
+        margin-left: 5%;
+    }
+
+    .contact img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+

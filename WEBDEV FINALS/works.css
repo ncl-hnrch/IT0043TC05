@@ -1,0 +1,278 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    animation: 0.5s;
+    transition: ease-in 0.5s;
+}
+
+body {
+    background-color: rgb(240, 223, 145);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    position: inherit;
+    background-color: rgb(255, 166, 0);
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+#duck {
+    width: 3.5%;
+    display: flex;
+    margin-left: 5%;
+}
+
+nav {
+    width: 53%;
+    margin-right: 50px;
+
+    display: flex;
+    align-content: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bolder;
+    color: rgb(204, 122, 0);
+}
+
+a#ACTIVE {
+    color: rgb(255, 72, 0);
+
+}
+
+.main {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+.more:hover {
+    background-color: rgb(255, 185, 56);
+}
+
+.more {
+    width: 100%;
+    background-color: orange;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.more-content {
+    display: none;
+    position: relative;
+    background-color:rgb(254, 229, 67);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10%;
+    font-size: 1rem;
+}
+
+.more-content a {
+    justify-content: center;
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+}
+
+.more-content p {
+    padding-bottom: 10px;
+}
+.more-content a:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+.show {
+    display: block;
+}
+
+.works {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.works img {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border-radius: 5%;
+    outline: 5px rgb(255, 166, 0) dashed;
+    box-shadow: 0px 0px 20px rgb(255, 140, 0);
+}
+
+.highlight {
+    font-weight: bold;
+    color: rgb(217, 141, 0);
+}
+
+/* little menu */
+.menu:hover {
+    text-shadow: 0px 0px 2px black;
+    color: rgb(155, 101, 0);
+}
+
+.menu {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: bolder;
+}
+
+.btnmenu {
+    display: none;
+    flex-direction: column;
+}
+
+.drop-menu {
+    display: none;
+    align-self: right;
+    width: 20%;
+    left: 80%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+.drop-menu a {
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+}
+
+.drop-menu a:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 1300px) {
+    .works img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .works img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .btnmenu {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .btnmenu {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .works img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btnmenu {
+        display: block;
+    }
+
+    .header {
+        position: static;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .works img {
+        width: 300px;
+        height: 300px;
+    }
+}
